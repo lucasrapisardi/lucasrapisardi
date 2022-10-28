@@ -2,9 +2,7 @@
 - 🔭 Currently I'm working on Equnix as Managed Services Enablement where I can contribute my team to create automation on internal proccess and flow. My previous experiences includes: GE Digital as Software Engineer Intern and Atlassian Analyst on 3Layer.
 
 ## ⚡ Main stack and Technologies
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain-wordmark.svg" width="64" height="64"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-plain-wordmark.svg" width="64" height="64"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" width="64" height="64"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain-wordmark.svg" width="64" height="64"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-plain-wordmark.svg" width="64" height="64"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" width="64" height="64"/>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" width="64" height="64"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="64" height="64"/>
