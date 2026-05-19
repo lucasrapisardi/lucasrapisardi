@@ -39,13 +39,32 @@ I build production-grade AI-powered systems and automation pipelines. My focus i
 
 ---
 
+## 🌐 RemotGateway — Founder & Lead Engineer
+
+> Job board aggregator that scrapes Braintrust's marketplace daily and funnels talent through a referral-monetized pipeline — built entirely in Python with zero database dependencies.
+
+| | |
+|---|---|
+| **Data Pipeline** | Daily automated scraper → JSON cache → filtered frontend delivery |
+| **Monetization** | All job CTAs routed through referral link · services section with tiered BTRST pricing |
+| **Frontend** | Bilingual (PT/ES) toggle · keyword + category filters · responsive card grid |
+| **Architecture** | Stateless Flask app · file-based job cache · scheduler-driven refresh |
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+---
+
 ## 🛠️ Skills
 
 **AI & Automation**
 `LLM Prompt Engineering` `OpenAI API` `Claude API` `Celery Pipelines` `Async Workflows` `Process Mapping`
 
 **Backend & Integration**
-`FastAPI` `REST API` `OAuth2` `Webhooks` `PostgreSQL` `Docker`
+`FastAPI` `Flask` `REST API` `OAuth2` `Webhooks` `PostgreSQL` `Docker`
 
 **Infrastructure & DevOps**
 `Ansible` `Linux` `CI/CD` `Zabbix` `Prometheus` `Grafana`
