@@ -83,6 +83,10 @@ I build production-grade AI-powered systems and automation pipelines. My focus i
 
 93%  reduction in average incident response time
      CIU · runbook-driven automated triage
+
+48x  faster full-store product sync
+     Trinis AI · full catalog (images, rich description, meta, categorization)
+     from 1 day per 10 products → entire store live in half a day
 ```
 
 ---
