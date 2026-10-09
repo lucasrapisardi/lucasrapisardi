@@ -19,7 +19,7 @@ I build production-grade AI-powered systems and automation pipelines. My focus i
 
 ---
 
-## 💼 Experience
+## Experience
 
 | Period | Role | Company |
 |---|---|---|
@@ -30,7 +30,7 @@ I build production-grade AI-powered systems and automation pipelines. My focus i
 
 ---
 
-## 🚀 Trinis AI — Founder & Lead Engineer · [trinis.ai](https://trinis.ai)
+## Trinis AI — Founder & Lead Engineer · [trinis.ai](https://trinis.ai)
 
 > AI-powered catalog operations SaaS for Shopify stores. It collects a supplier's catalog from a URL, spreadsheet or PDF, rewrites descriptions in the brand's voice, generates images and keeps price, stock and publishing in sync every day. Live in production.
 
@@ -65,7 +65,7 @@ I build production-grade AI-powered systems and automation pipelines. My focus i
 
 ---
 
-## 🌐 Remote Gateway — Founder & Lead Engineer
+## Remote Gateway — Founder & Lead Engineer
 
 > Job board aggregator that scrapes Braintrust's marketplace daily and funnels talent through a referral-monetized pipeline — built entirely in Python with zero database dependencies.
 
@@ -84,13 +84,13 @@ I build production-grade AI-powered systems and automation pipelines. My focus i
 
 ---
 
-## 🛍️ Dimora Mediterranea — Founder & Ecommerce Operator
+## Dimora Mediterranea — Founder & Ecommerce Operator
 
 > End-to-end Shopify store with an LLM integration tool (Claude + OpenAI) for automated product descriptions, images and blog content — the real-world testbed that became Trinis AI.
 
 ---
 
-## 🛠️ Skills
+## Skills
 
 **AI & Automation**
 `LLM Prompt Engineering` `OpenAI API` `Claude API` `Gemini API` `Agent Architecture` `N8n` `Celery Pipelines` `Async Workflows` `Process Mapping`
@@ -109,7 +109,7 @@ I build production-grade AI-powered systems and automation pipelines. My focus i
 
 ---
 
-## 📊 Impact
+## Impact
 
 ```
 86%  reduction in manual infrastructure operations
@@ -128,7 +128,7 @@ I build production-grade AI-powered systems and automation pipelines. My focus i
 
 ---
 
-## 📚 Currently Learning
+## Currently Learning
 
 - DevOps & Architect Specialization — Full Cycle 3.0
 - Linux System Administrator & Network Engineer — 4Linux
@@ -136,7 +136,7 @@ I build production-grade AI-powered systems and automation pipelines. My focus i
 
 ---
 
-## 🌍 Languages
+## Languages
 
 `Portuguese` Native &nbsp;·&nbsp; `English` C1 Advanced &nbsp;·&nbsp; `Italian` B1
 
