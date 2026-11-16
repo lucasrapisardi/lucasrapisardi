@@ -23,7 +23,7 @@ I build production-grade AI-powered systems and automation pipelines. My focus i
 
 | Period | Role | Company |
 |---|---|---|
-| Aug 2026 — Present | Solutions Developer | **Ruvixx** — AI-powered solutions for software compliance teams: end-to-end solution design, full-stack apps (FastAPI · React/TypeScript), Celery/Redis pipelines and LLM agents with guardrails and human review |
+| Out 2026 — Present | Solutions Developer | **Ruvixx** — AI-powered solutions for software compliance teams: end-to-end solution design, full-stack apps (FastAPI · React/TypeScript), Celery/Redis pipelines and LLM agents with guardrails and human review |
 | Apr 2026 — Aug 2026 | Support Engineer | **ActiveState** — led the helpdesk migration from Salesforce to Pylon, integrated it with Slack, Salesforce, WhatsApp and Microsoft Teams, and built support processes and SLAs from the ground up |
 | Aug 2024 — May 2026 | IT Administrator & AI Automation Specialist | **California Intercontinental University** — N8n pipelines for credential provisioning and compliance tracking, enterprise infrastructure (Windows Server, AD, M365) |
 | Apr 2023 — Apr 2026 | DevOps & ITSM Analyst | **Equinix** — Ansible/Puppet automation across 3,000+ hosts, full ITSM lifecycle in ServiceNow, GitLab CI/CD, VMware, Kubernetes |
@@ -57,65 +57,32 @@ I build production-grade AI-powered systems and automation pipelines. My focus i
 
 > AI-powered catalog operations SaaS for Shopify stores. It collects a supplier's catalog from a URL, spreadsheet or PDF, rewrites descriptions in the brand's voice, generates images and keeps price, stock and publishing in sync every day. Live in production.
 
-<!-- Optional: add a dashboard screenshot or a GIF of a job running -->
-<!-- ![Trinis AI dashboard](./trinis-dashboard.png) -->
-
 | | |
 |---|---|
-| **Pipeline** | Collect (URL · sheet · PDF) → AI Enrich (GPT · Gemini · Claude) → Image AI → Publish & Sync |
-| **Async processing** | Long-running jobs on worker queues with live per-product progress and logs — the API never blocks and one failure doesn't take the job down |
-| **AI cost control** | Model choice per task · EAN-based cache skips products that were already enriched |
+| **Catalog flow** | Collect (URL · sheet · PDF) → AI enrichment in the brand's voice → AI images → publish & daily sync |
+| **Long-running jobs** | Large catalogs processed in the background with live per-product progress and logs · one failing product never stops the job |
+| **AI cost control** | The right AI for each task · products already enriched are recognized and skipped |
 | **Undo for bulk actions** | Automatic catalog snapshot before every bulk job · one-click revert or per-product diff & restore |
-| **Multi-tenant** | Per-account data isolation · encrypted store credentials · multiple stores and teams per account |
-| **Shopify app** | OAuth install · embedded in the Shopify admin · mandatory privacy (GDPR) webhooks |
-| **Billing** | Stripe subscriptions and add-ons · usage metering with plan limits enforced across the pipeline |
+| **Multi-tenant** | Isolated data per account · securely stored store credentials · multiple stores and teams per account |
+| **Shopify app** | One-click install · works inside the Shopify admin · privacy-compliant |
+| **Billing** | Subscriptions and add-ons · usage limits per plan enforced across the whole flow |
 | **Modules** | Scraper & Import · AI Enricher · Image AI & bulk · Blog AI · Sync Engine · Backup |
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![Shopify](https://img.shields.io/badge/Shopify-7AB55C?style=flat-square&logo=shopify&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ---
 
 ## Vyrall.me — Founder & Lead Engineer · [vyrall.me](https://vyrall.me)
 
-> AI content engine for gaming creators, launching alongside GTA VI. It spots the videos that are taking off on YouTube, picks the best moments with an LLM and turns them into ready-to-post vertical (9:16) clips and narrated news videos, in Portuguese and English.
+> AI content engine for gaming creators, launching alongside GTA VI. It spots the videos that are taking off on YouTube, picks the best moments with AI and turns them into ready-to-post vertical clips and narrated news videos, in Portuguese and English.
 
 | | |
 |---|---|
-| **Radar** | YouTube Data API discovery ranked by views per hour · watched channels and RSS news sources |
-| **Clip pipeline** | Download (yt-dlp) → transcription (Whisper via Groq) → LLM moment picking → ffmpeg cut, captions and 9:16 render |
-| **Narrated news** | LLM-written scripts · local TTS (Kokoro) · AI images (fal.ai) · bilingual output |
-| **Job orchestration** | Postgres-backed queues (pg-boss) · dedicated media worker with CPU caps · orphaned jobs requeued on restart · per-item progress and retries |
-| **Cost control** | Every API call and proxy GB metered in BRL · residential-proxy traffic counted byte by byte · daily spend circuit breaker |
-| **Plans & billing** | Monthly quotas per plan (clips, news, video analyses) charged before the work and refunded on our failures · Kiwify webhooks · versioned terms of use |
-| **Operations** | Docker Compose on a VPS behind Caddy (auto HTTPS, only 80/443 exposed) · GitHub Actions: tests → GHCR images → SSH deploy → smoke test · encrypted versioned backups (age + S3) · Sentry & uptime health checks |
-| **Quality** | TypeScript monorepo (pnpm) · Vitest unit, integration and media tests · Playwright end-to-end |
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![YouTube API](https://img.shields.io/badge/YouTube_API-FF0000?style=flat-square&logo=youtube&logoColor=white)
-![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Caddy](https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+| **Trend radar** | Finds the videos gaining traction fastest, ranked by views per hour · follows chosen channels and news sources |
+| **AI clips** | Picks the strongest moments of a video and delivers vertical (9:16) clips with captions, ready for Shorts, Reels and TikTok |
+| **Narrated news** | AI-written scripts turned into narrated videos with generated images, in two languages |
+| **Live progress** | Every request shows its progress item by item · automatic retries, and nothing stays stuck when something fails |
+| **Plans & quotas** | Monthly plans with clear limits · usage is reserved before the work starts and refunded when a failure is on our side · upgrade right when a quota runs out |
+| **Cost control** | Real cost tracked for every request · daily spending limit that stops the pipeline before costs get out of hand |
+| **Reliability** | Automatic deploys checked by an end-to-end test · encrypted nightly backups · error and uptime monitoring |
 
 ---
 
@@ -147,13 +114,13 @@ I build production-grade AI-powered systems and automation pipelines. My focus i
 ## Skills
 
 **AI & Automation**
-`LLM Prompt Engineering` `OpenAI API` `Claude API` `Gemini API` `Agent Architecture` `LLM Guardrails` `Human-in-the-Loop Review` `N8n` `Celery Pipelines` `Async Workflows` `Whisper / TTS` `FFmpeg` `Process Mapping` `Solution Architecture`
+`LLM Prompt Engineering` `OpenAI API` `Claude API` `Gemini API` `Agent Architecture` `LLM Guardrails` `Human-in-the-Loop Review` `N8n` `Celery Pipelines` `Async Workflows` `Process Mapping` `Solution Architecture`
 
 **Backend & Integration**
-`FastAPI` `SQLAlchemy` `Flask` `React` `Next.js` `TypeScript` `Drizzle ORM` `REST API` `OAuth2` `Webhooks` `PostgreSQL` `Redis` `pg-boss` `Gmail API` `YouTube Data API` `Shopify API` `Stripe`
+`FastAPI` `SQLAlchemy` `Flask` `React` `Next.js` `TypeScript` `REST API` `OAuth2` `Webhooks` `PostgreSQL` `Redis` `Gmail API` `Shopify API` `Stripe`
 
 **Infrastructure & DevOps**
-`Docker` `Caddy` `GitHub Actions` `Kubernetes` `Ansible` `Puppet` `GitLab CI/CD` `VMware vSphere` `Linux` `AWS` `Zabbix` `Prometheus` `Grafana` `Sentry`
+`Docker` `GitHub Actions` `Kubernetes` `Ansible` `Puppet` `GitLab CI/CD` `VMware vSphere` `Linux` `AWS` `Zabbix` `Prometheus` `Grafana` `Sentry`
 
 **Systems & Identity**
 `Windows Server` `Active Directory` `Microsoft 365` `PowerShell` `Bash`
