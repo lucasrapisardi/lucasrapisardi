@@ -2,7 +2,7 @@
 
 # Lucas Rapisardi de Moura
 
-**DevOps & AI Engineer**
+**Solutions Developer · AI & Automation Engineer**
 
 São Paulo, Brazil · [lucas.rapisardi@live.com](mailto:lucas.rapisardi@live.com)
 
@@ -15,7 +15,7 @@ São Paulo, Brazil · [lucas.rapisardi@live.com](mailto:lucas.rapisardi@live.com
 
 ---
 
-I build production-grade AI-powered systems and automation pipelines. My focus is turning manual, repetitive workflows into intelligent, observable, and scalable processes — from infrastructure management at scale to a multi-tenant SaaS I designed, built and run in production.
+I build production-grade AI-powered systems and automation pipelines. My focus is turning manual, repetitive workflows into intelligent, observable, and scalable processes — from infrastructure management at scale to full-stack products with LLMs in the loop, always with guardrails and a human in control of the decisions that matter.
 
 ---
 
@@ -23,10 +23,33 @@ I build production-grade AI-powered systems and automation pipelines. My focus i
 
 | Period | Role | Company |
 |---|---|---|
-| Apr 2026 — Present | Support Engineer | **ActiveState** — led the helpdesk migration from Salesforce to Pylon, integrated it with Slack, Salesforce, WhatsApp and Microsoft Teams, and built support processes and SLAs from the ground up |
+| Aug 2026 — Present | Solutions Developer | **Ruvixx** — AI-powered solutions for software compliance teams: end-to-end solution design, full-stack apps (FastAPI · React/TypeScript), Celery/Redis pipelines and LLM agents with guardrails and human review |
+| Apr 2026 — Aug 2026 | Support Engineer | **ActiveState** — led the helpdesk migration from Salesforce to Pylon, integrated it with Slack, Salesforce, WhatsApp and Microsoft Teams, and built support processes and SLAs from the ground up |
 | Aug 2024 — May 2026 | IT Administrator & AI Automation Specialist | **California Intercontinental University** — N8n pipelines for credential provisioning and compliance tracking, enterprise infrastructure (Windows Server, AD, M365) |
 | Apr 2023 — Apr 2026 | DevOps & ITSM Analyst | **Equinix** — Ansible/Puppet automation across 3,000+ hosts, full ITSM lifecycle in ServiceNow, GitLab CI/CD, VMware, Kubernetes |
-| Ongoing | Founder & Lead Engineer | **Trinis AI** — see below |
+| Ongoing | Founder & Lead Engineer | **Trinis AI** and **Vyrall.me** — see below |
+
+---
+
+## Ruvixx — Solutions Developer
+
+> Building AI-powered solutions that help software compliance teams work faster and with more confidence, while keeping human experts in control of key decisions.
+
+- **Solution design end to end** — from understanding business needs and mapping data flows to defining the architecture before development starts
+- **Full-stack applications** — Python (FastAPI, SQLAlchemy, PostgreSQL) on the backend, React with TypeScript on the frontend
+- **Async pipelines & integrations** — Celery and Redis processing pipelines, external APIs and Gmail
+- **Safe LLM & agent integration** — validation, guardrails and human review on critical outputs
+- **Quality & delivery** — testing, monitoring and reliable production deployments
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Gmail](https://img.shields.io/badge/Gmail_API-EA4335?style=flat-square&logo=gmail&logoColor=white)
 
 ---
 
@@ -65,6 +88,37 @@ I build production-grade AI-powered systems and automation pipelines. My focus i
 
 ---
 
+## Vyrall.me — Founder & Lead Engineer · [vyrall.me](https://vyrall.me)
+
+> AI content engine for gaming creators, launching alongside GTA VI. It spots the videos that are taking off on YouTube, picks the best moments with an LLM and turns them into ready-to-post vertical (9:16) clips and narrated news videos, in Portuguese and English.
+
+| | |
+|---|---|
+| **Radar** | YouTube Data API discovery ranked by views per hour · watched channels and RSS news sources |
+| **Clip pipeline** | Download (yt-dlp) → transcription (Whisper via Groq) → LLM moment picking → ffmpeg cut, captions and 9:16 render |
+| **Narrated news** | LLM-written scripts · local TTS (Kokoro) · AI images (fal.ai) · bilingual output |
+| **Job orchestration** | Postgres-backed queues (pg-boss) · dedicated media worker with CPU caps · orphaned jobs requeued on restart · per-item progress and retries |
+| **Cost control** | Every API call and proxy GB metered in BRL · residential-proxy traffic counted byte by byte · daily spend circuit breaker |
+| **Plans & billing** | Monthly quotas per plan (clips, news, video analyses) charged before the work and refunded on our failures · Kiwify webhooks · versioned terms of use |
+| **Operations** | Docker Compose on a VPS behind Caddy (auto HTTPS, only 80/443 exposed) · GitHub Actions: tests → GHCR images → SSH deploy → smoke test · encrypted versioned backups (age + S3) · Sentry & uptime health checks |
+| **Quality** | TypeScript monorepo (pnpm) · Vitest unit, integration and media tests · Playwright end-to-end |
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![YouTube API](https://img.shields.io/badge/YouTube_API-FF0000?style=flat-square&logo=youtube&logoColor=white)
+![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Caddy](https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+
+---
+
 ## Remote Gateway — Founder & Lead Engineer
 
 > Job board aggregator that scrapes Braintrust's marketplace daily and funnels talent through a referral-monetized pipeline — built entirely in Python with zero database dependencies.
@@ -93,16 +147,19 @@ I build production-grade AI-powered systems and automation pipelines. My focus i
 ## Skills
 
 **AI & Automation**
-`LLM Prompt Engineering` `OpenAI API` `Claude API` `Gemini API` `Agent Architecture` `N8n` `Celery Pipelines` `Async Workflows` `Process Mapping`
+`LLM Prompt Engineering` `OpenAI API` `Claude API` `Gemini API` `Agent Architecture` `LLM Guardrails` `Human-in-the-Loop Review` `N8n` `Celery Pipelines` `Async Workflows` `Whisper / TTS` `FFmpeg` `Process Mapping` `Solution Architecture`
 
 **Backend & Integration**
-`FastAPI` `Flask` `Next.js` `TypeScript` `REST API` `OAuth2` `Webhooks` `PostgreSQL` `Redis` `Shopify API` `Stripe`
+`FastAPI` `SQLAlchemy` `Flask` `React` `Next.js` `TypeScript` `Drizzle ORM` `REST API` `OAuth2` `Webhooks` `PostgreSQL` `Redis` `pg-boss` `Gmail API` `YouTube Data API` `Shopify API` `Stripe`
 
 **Infrastructure & DevOps**
-`Docker` `Kubernetes` `Ansible` `Puppet` `GitLab CI/CD` `VMware vSphere` `Linux` `AWS` `Zabbix` `Prometheus` `Grafana`
+`Docker` `Caddy` `GitHub Actions` `Kubernetes` `Ansible` `Puppet` `GitLab CI/CD` `VMware vSphere` `Linux` `AWS` `Zabbix` `Prometheus` `Grafana` `Sentry`
 
 **Systems & Identity**
 `Windows Server` `Active Directory` `Microsoft 365` `PowerShell` `Bash`
+
+**Testing**
+`Vitest` `Playwright` `End-to-End Smoke Tests`
 
 **ITSM & Support Ops**
 `ServiceNow` `Pylon` `Salesforce` `ITIL` `Incident / Change / Problem` `CMDB` `CAB` `SLA Design` `Knowledge Base`
